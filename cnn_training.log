@@ -1,0 +1,50 @@
+PS C:\Users\Vivek\Desktop\Python> python .\cnn_solution.py
+Using TensorFlow backend.
+E c:\tf_jenkins\home\workspace\release-win\device\cpu\os\windows\tensorflow\core\framework\op_kernel.cc:943] OpKernel ('op: "BestSplits" device_type: "CPU"') for unknown op: BestSplits
+E c:\tf_jenkins\home\workspace\release-win\device\cpu\os\windows\tensorflow\core\framework\op_kernel.cc:943] OpKernel ('op: "CountExtremelyRandomStats" device_type: "CPU"') for unknown op: Cou
+ntExtremelyRandomStats
+E c:\tf_jenkins\home\workspace\release-win\device\cpu\os\windows\tensorflow\core\framework\op_kernel.cc:943] OpKernel ('op: "FinishedNodes" device_type: "CPU"') for unknown op: FinishedNodes
+E c:\tf_jenkins\home\workspace\release-win\device\cpu\os\windows\tensorflow\core\framework\op_kernel.cc:943] OpKernel ('op: "GrowTree" device_type: "CPU"') for unknown op: GrowTree
+E c:\tf_jenkins\home\workspace\release-win\device\cpu\os\windows\tensorflow\core\framework\op_kernel.cc:943] OpKernel ('op: "ReinterpretStringToFloat" device_type: "CPU"') for unknown op: Rein
+terpretStringToFloat
+E c:\tf_jenkins\home\workspace\release-win\device\cpu\os\windows\tensorflow\core\framework\op_kernel.cc:943] OpKernel ('op: "SampleInputs" device_type: "CPU"') for unknown op: SampleInputs
+E c:\tf_jenkins\home\workspace\release-win\device\cpu\os\windows\tensorflow\core\framework\op_kernel.cc:943] OpKernel ('op: "ScatterAddNdim" device_type: "CPU"') for unknown op: ScatterAddNdim
+E c:\tf_jenkins\home\workspace\release-win\device\cpu\os\windows\tensorflow\core\framework\op_kernel.cc:943] OpKernel ('op: "TopNInsert" device_type: "CPU"') for unknown op: TopNInsert
+E c:\tf_jenkins\home\workspace\release-win\device\cpu\os\windows\tensorflow\core\framework\op_kernel.cc:943] OpKernel ('op: "TopNRemove" device_type: "CPU"') for unknown op: TopNRemove
+E c:\tf_jenkins\home\workspace\release-win\device\cpu\os\windows\tensorflow\core\framework\op_kernel.cc:943] OpKernel ('op: "TreePredictions" device_type: "CPU"') for unknown op: TreePredictio
+ns
+E c:\tf_jenkins\home\workspace\release-win\device\cpu\os\windows\tensorflow\core\framework\op_kernel.cc:943] OpKernel ('op: "UpdateFertileSlots" device_type: "CPU"') for unknown op: UpdateFert
+ileSlots
+Train on 7000 samples, validate on 1000 samples
+Epoch 1/15
+7000/7000 [==============================] - 10s - loss: 1.1005 - acc: 0.3371 - val_loss: 1.0971 - val_acc: 0.3990
+Epoch 2/15
+7000/7000 [==============================] - 10s - loss: 1.0975 - acc: 0.3486 - val_loss: 1.0964 - val_acc: 0.3360
+Epoch 3/15
+7000/7000 [==============================] - 9s - loss: 1.0946 - acc: 0.3656 - val_loss: 1.0938 - val_acc: 0.3520
+Epoch 4/15
+7000/7000 [==============================] - 10s - loss: 1.0891 - acc: 0.3950 - val_loss: 1.0861 - val_acc: 0.4400
+Epoch 5/15
+7000/7000 [==============================] - 10s - loss: 1.0724 - acc: 0.4287 - val_loss: 1.0653 - val_acc: 0.4370
+Epoch 6/15
+7000/7000 [==============================] - 10s - loss: 1.0343 - acc: 0.4590 - val_loss: 1.0387 - val_acc: 0.4300
+Epoch 7/15
+7000/7000 [==============================] - 10s - loss: 0.9813 - acc: 0.5041 - val_loss: 0.9887 - val_acc: 0.4860
+Epoch 8/15
+7000/7000 [==============================] - 10s - loss: 0.9229 - acc: 0.5429 - val_loss: 0.8858 - val_acc: 0.5890
+Epoch 9/15
+7000/7000 [==============================] - 10s - loss: 0.8855 - acc: 0.5697 - val_loss: 0.8388 - val_acc: 0.6110
+Epoch 10/15
+7000/7000 [==============================] - 10s - loss: 0.8537 - acc: 0.5851 - val_loss: 0.7848 - val_acc: 0.6370
+Epoch 11/15
+7000/7000 [==============================] - 10s - loss: 0.8033 - acc: 0.6186 - val_loss: 0.7995 - val_acc: 0.5930
+Epoch 12/15
+7000/7000 [==============================] - 10s - loss: 0.7789 - acc: 0.6337 - val_loss: 0.7203 - val_acc: 0.6720
+Epoch 13/15
+7000/7000 [==============================] - 10s - loss: 0.7764 - acc: 0.6391 - val_loss: 0.7209 - val_acc: 0.6500
+Epoch 14/15
+7000/7000 [==============================] - 9s - loss: 0.7325 - acc: 0.6516 - val_loss: 0.7131 - val_acc: 0.6570
+Epoch 15/15
+7000/7000 [==============================] - 11s - loss: 0.7276 - acc: 0.6703 - val_loss: 0.6673 - val_acc: 0.7000
+1952/2000 [============================>.] - ETA: 0sTest loss: 0.7067908272743225
+Test accuracy: 0.685
